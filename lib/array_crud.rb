@@ -6,14 +6,15 @@ def create_an_array
   ["one", "two", "three", "four"]
 end
 
-def add_element_to_end_of_array(array, element)
-  array = ["one", "two", "three", "four"]
+$array = "I", "am", "really", "learning"
+
+def add_element_to_end_of_array($array, element)
   element = "arrays!"
   array << element 
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["one", "two", "three", "four"]
+  array = ["wow", "I", "am", "really", "learning"]
   element = "wow"
   array.unshift(element)
 end
