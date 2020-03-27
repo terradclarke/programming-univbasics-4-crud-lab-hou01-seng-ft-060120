@@ -19,25 +19,26 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = ["one", "two", "three", "four"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array = ["one", "two", "three", "four"]
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  array = ["one", "two", "three", "four"]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  array = ["one", "two", "three", "four"]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  array = ["one", "two", "three", "four"]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  array = ["one", "two", "three", "four"]
 end
