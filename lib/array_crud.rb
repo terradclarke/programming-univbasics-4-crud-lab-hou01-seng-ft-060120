@@ -6,9 +6,8 @@ def create_an_array
   ["one", "two", "three", "four"]
 end
 
-$array = "I", "am", "really", "learning"
-
 def add_element_to_end_of_array($array, element)
+  array = "I", "am", "really", "learning"
   element = "arrays!"
   array << element 
 end
